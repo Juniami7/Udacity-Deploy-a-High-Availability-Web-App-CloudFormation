@@ -52,5 +52,5 @@ Project Setup
 
 		# $ scripts/create-stack.sh ProjectServers-stack Servers.yml Servers-params.json #
 
-Once the above steps are complete, you can find the URL of application in the outputs section of the ProjectServers Cloudformation Stack. 
-See example: ![image](https://user-images.githubusercontent.com/99303630/163819293-0e7a330b-f19b-4189-8dd5-1a488166bd53.png)
+Once the above steps are complete, you can find the URL of application in the outputs section of the ProjectServers Cloudformation Stack. Example:
+https://github.com/Juniami7/Udacity-Deploy-a-High-Availability-Web-App-CloudFormation/tree/main/Screenshots
