@@ -24,7 +24,7 @@ Project Files
 
 
 Project Setup
-	1. To create network resources using cloudformation template, run the command(s) below. 
+1. To create network resources using cloudformation template, run the command(s) below. 
 		Resources created:
 			○ VPC
 			○ Subnets
@@ -39,9 +39,9 @@ Project Setup
 					• List of private subnets
 					• Each of public and private subnet ID
 			
-	## $ scripts/create-stack.sh ProjectNetwork-stack Network.yml Network-params.json ##
+		# $ scripts/create-stack.sh ProjectNetwork-stack Network.yml Network-params.json #
 
-	2. To create server resources using cloudformation template which pulls source code from S3 bucket automatically while starting, run the below command. 
+2. To create server resources using cloudformation template which pulls source code from S3 bucket automatically while starting, run the below command. 
 		Resources created:
 			○ Security Groups
 			○ IAM Role, Instance Profile
@@ -50,6 +50,7 @@ Project Setup
 			○ Auto Scaling Group
 			○ Load Balancer
 
-	## $ scripts/create-stack.sh ProjectServers Servers.yml Servers-params.json ##
+		# $ scripts/create-stack.sh ProjectServers-stack Servers.yml Servers-params.json #
 
-Once the above steps are complete, you can find the URL of application in the outputs section of the ProjectServers Cloudformation Stack. See example: Output URL ![image](https://user-images.githubusercontent.com/99303630/163819293-0e7a330b-f19b-4189-8dd5-1a488166bd53.png)
+Once the above steps are complete, you can find the URL of application in the outputs section of the ProjectServers Cloudformation Stack. 
+See example: ![image](https://user-images.githubusercontent.com/99303630/163819293-0e7a330b-f19b-4189-8dd5-1a488166bd53.png)
