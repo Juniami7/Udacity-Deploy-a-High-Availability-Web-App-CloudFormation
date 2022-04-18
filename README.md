@@ -1,7 +1,6 @@
 # Udacity-Deploy-a-High-Availability-Web-App-CloudFormation
-Project 2
 
-Deploy a high-availability web app using CloudFormation
+Deploy a high-availability web app using CloudFormation:
 
 This project deploys a high-availability web app using Infrastructure as Code (IaC) with AWS Cloudformation scripts.
 
